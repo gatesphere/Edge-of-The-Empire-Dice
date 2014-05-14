@@ -2,7 +2,7 @@
 
 import os
 
-REPO_NAME = "flask-ghpages-example"  # Used for FREEZER_BASE_URL
+REPO_NAME = "Edge-of-The-Empire-Dice"  # Used for FREEZER_BASE_URL
 DEBUG = True
 
 # Assumes the app is located in the same directory
