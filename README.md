@@ -4,27 +4,29 @@ Edge-of-The-Empire-Dice
 A dice rolling tool for the Edge of the Empire roll playing game.
 
 ####usage:
-	python eote.py -p abcdpsf0
+	python roll.py -p abcdpsf10
 
 
 ####results in:
 
-	two success
-	advantage
-	failure
-	40
-	two advantage
-	failure
+	blank
+	blank
+	blank
+	threat
+	success + advantage
+	threat
 	two light
-	3
+	10
+	5
 
 the string after `-p` signifies which, and how many dice are rolled.
 
 	a = ability
 	b = boost
 	c = challenge
-	d = decader(d10)
+	d = Difficulty
 	p = proficiency
 	s = setback
 	f = force
-	0 = d10
+	1 = 10-90
+	0 = 1-9
