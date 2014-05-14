@@ -11,4 +11,4 @@ def home():
 		else:
 			return render_template("index.html")
 	elif request.method == "GET":
-		return render_template("index.html")
+		return render_template("derp.html")
